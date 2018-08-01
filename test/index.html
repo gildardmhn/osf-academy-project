@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slick slider</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<header id="wrapper">
+			<div class="menu-area">	
+				<div class="logo">
+					<h2>Slick Slider</h2>
+				</div>
+				<div class="menu-item">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portofolio</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					
+				</div>			
+			</div>
+
+		</header>
+
+		<div class="thing" id="wrapper">
+			<div><img src="img/img.png" alt="slider image 1"></div>
+			<div><img src="img/img.png" alt="slider image 2"></div>
+			<div><img src="img/img.png" alt="slider image 3"></div>
+		</div>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.thing').slick({
+				slidesToShow: 2,
+  				slidesToScroll: 1,
+ 				autoplay: true,
+  				autoplaySpeed: 1000,
+			});
+		});
+	</script>
+</body>
+</html>

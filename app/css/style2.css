@@ -1,0 +1,25 @@
+
+.card {
+	background-color: black;
+}
+
+.card-header {
+	
+}
+
+.left {
+	color: #3cb494;
+	margin-left: 10px; 
+	float: left;
+}
+
+.right {
+	color: #aeb2b1;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+any-link {
+	text-decoration: none;
+}

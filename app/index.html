@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+
+	<header>
+		<div class="main-header">
+			<div class="logo">
+				<a href="index.html"><h1>FOOSESHOES</h1></a>
+			</div>
+	
+			<div class="right">
+				<i class="fa fa-search" style="color:#7e7e7e"></i>
+				<a data-toggle="modal" data-target="#loginRegister">LOGIN or REGISTER</a>
+
+				<!-- Modal -->
+				<div class="modal fade" id="loginRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalCenterTitle">Login or Register</h5>
+						</div>
+						<div class="modal-body">
+							<form class="px-4 py-3">
+								<div class="form-group">
+									<label for="exampleDropdownFormEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+								</div>
+								<div class="form-group">
+									<label for="exampleDropdownFormPassword1">Password</label>
+									<input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+								</div>
+								<div class="form-check">
+									<input type="checkbox" class="form-check-input" id="dropdownCheck">
+									<label class="form-check-label" for="dropdownCheck">
+									Remember me
+									</label>
+								</div>
+								<button type="submit" class="btn btn-primary">Login</button>
+							</form>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">New around? Register</a>
+							<a class="dropdown-item" href="#">Forgot password?</a>
+						</div>
+						<div class="modal-footer">
+							<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+					</div>
+				</div>
+				<!-- Modal -->
+			</div>
+		</div>
+	</header>
+
+	<div class="myNavBar">
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="#Aboutt">About</a></li>
+				<li><a href="#Pages">Pages</a></li>
+				<li><a href="#Blog">Blog</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li style="float:right"><a class="navRight" href="#about"><i class="fa fa-shopping-cart"></i><div class="cart">0</div></a></li>
+				<li style="float:right"><a class="navRight" href="#about"><i class="fa fa-star-o"></i><div class="wish">30</div></a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="slider">	
+		<div class="image-and-text">
+			<span style="float:left;width: 50%; height: 464px;">
+				<img src="img/img.png" alt="slider image 1">
+			</span>
+			
+			<span id="desc-text" style="float:left;width: 400px; height: 464px;padding-top:100px; ">
+				<div id="desc-price">$145,99</div>
+				<h1 id="collection">Pink Shoes</h1>
+				<h1>2013 Collection</h1>
+
+				<p class="slide-desc">
+					Nunc non fermentum nunc. Sed ut ante 
+					eget leo tempor consequat sit amet eu orci. 
+					Donec dignissim dolor eget..
+				</p>
+
+				<div class="icons">
+					<i class="fa fa-eye icon-box" aria-hidden="true"></i>
+					<i class="fa fa-star-o icon-box"></i>
+					<i class="fa fa-share-square-o icon-box"></i>
+					<i class="fa fa-shopping-cart icon-box"></i>
+				</div>
+			</span>
+		</div>
+		<!-- Second image -->
+		<div class="image-and-text">
+				<span style="float:left;width: 50%; height: 464px;">
+					<img src="img/img.png" alt="slider image 1">
+				</span>
+				
+				<span id="desc-text" style="float:left;width: 400px; height: 464px;padding-top:100px; ">
+					<div id="desc-price">$145,99</div>
+					<h1 id="collection">Pink Shoes</h1>
+					<h1>2013 Collection</h1>
+	
+					<p class="slide-desc">
+						Nunc non fermentum nunc. Sed ut ante 
+						eget leo tempor consequat sit amet eu orci. 
+						Donec dignissim dolor eget..
+					</p>
+	
+					<div class="icons">
+						<i class="fa fa-eye icon-box" aria-hidden="true"></i>
+						<i class="fa fa-star-o icon-box"></i>
+						<i class="fa fa-share-square-o icon-box"></i>
+						<i class="fa fa-shopping-cart icon-box"></i>
+					</div>
+				</span>
+			</div>
+	</div>
+
+	<div class="slide-bar">
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+	</div>
+
+	<div class="onSale">
+		<div class="products">
+
+			<div class="eachProduct">
+				<img src="img/imgshoes.png">
+				<div class="centered"><a>ON SALE</a></div>
+			</div>
+
+				<div class="eachProduct">
+				<img src="img/imgmale.png">
+				<div class="centered"><a>SPECIAL OFFERS</a></div>
+			</div>
+
+			<div class="eachProduct">
+				<img src="img/imgfemale.png">
+				<div class="centered"><a>MUST HAVE</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="product-grid">
+
+		<div class="new-arrival">
+				<h3>New arrivals on Fooseshoes</h3>
+	 			<span>Show All</span>
+		</div>
+
+		<div class="arrivals">
+
+			<div class="shoe-grid">
+				<div class="price">$145,99</div>
+				<img src="img/shoe.png">
+				<div class="title">Even&Odd</div>
+			</div>
+				
+			<div class="shoe-grid">
+				<div class="price">$145,99</div>
+				<div class="on-sale">on sale!</div>
+				<img src="img/shoe.png">
+				<div class="title">Even&Odd</div>
+			</div>
+
+			<div class="shoe-grid">
+				<div class="price">$145,99</div>
+				<img src="img/shoe.png">
+				<div class="title">Even&Odd</div>
+			</div>
+			
+		</div>
+
+		<div class="new-arrival">
+				<h3>Best seller of the month</h3>
+	 			<span>Show All</span>
+		</div>
+
+		<div class="arrivals">
+
+			<div class="shoe-grid">
+				<div class="price">$145,99</div>
+				<img src="img/shoe.png">
+				<div class="title">Even&Odd</div>
+			</div>
+				
+			<div class="shoe-grid">
+				<div class="price">$145,99</div>
+				<img src="img/shoe.png">
+				<div class="title">Even&Odd</div>
+			</div>
+
+			<div class="shoe-grid">
+				<div class="price">$145,99</div>
+				<div class="out-stock">out of stock</div>
+				<img src="img/shoe.png">
+				<div class="title">Buffalo Decolleté</div>
+			</div>
+		</div>	
+	</div>
+	
+	<div class="static-content">
+
+		<div class="static-div">
+			<h1>free shipping</h1>
+			<p>
+				Vivamus metus turpis, bibendum
+				vitae euismod vel,
+				vulputate vel nibh. Class aptent taciti sociosqu
+				ad litora torquent per conubia
+				nostra, per inceptos himenaeos.
+				Donec erat sem, 
+			</p>
+		</div>
+
+		<div class="static-div">
+			<h1>testimonials</h1>
+			<p>
+				vel, vulputate vel nibh. Class
+				aptent taciti sociosqu ad litora
+				torquent per conubia nostra, per
+				inceptos himenaeos. Donec erat
+				sem, vehicula id dictum sit [...]
+				- John Doe - 
+			</p>
+		</div>
+
+		<div class="blog-news">
+			<h1>blog news</h1>
+			<div class="slide-news">
+				<div class="date-news"><h3>apr 01</h3></div>
+				<div class="text-news">Nice & clean. The best for you blog! <br>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</div>
+			
+				<div class="date-news-1"><h3>apr 02</h3></div>
+				<div class="text-news-1">Nice & clean. The best for you blog! <br>Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="widget">
+			<div class="widget-content">
+				<h1>text widget</h1>
+				<p>
+					Donec sed odio dui. Nulla vitae elit libero, a
+					pharetra augue. Nullam id dolor id nibh ultricies 
+					vehicula ut id elit. Integer posuere erat a ante 
+					venenatis dapibus posuere velit aliquet. Duis 
+					mollis, est non commodo luctus, nisi erat 
+					porttitor ligula, eget lacinia odio sem nec elit.
+				</p>
+			</div>
+
+			<div id="twitter" class="widget-content" >
+				<h1>twitter widget</h1>
+				<p>
+					<span>@ericafustero</span> Why thank you. Your work looks 
+					awesome by the way! <span>@treemelody</span><br>
+					<strong>19 days ago</strong><br>
+					
+					<span>@ericafustero</span> Why thank you. Your work looks 
+					awesome by the way! @treemelody<br>
+					<strong>19 days ago</strong>
+
+				</p>
+			</div>
+
+			<div style="float: right;" class="widget-content">
+				<h1>flickr widget</h1>
+				<p>
+					<img src="img/Layer_18.png">
+				</p>
+			</div>
+		</div>
+
+		<div class="newsletter">
+			<div class="mail">
+				<div class="input-group">
+					<form onsubmit="return make_json(this);">
+					<input placeholder="Enter email for newsletter " type="email" class="form-control" name="mail">
+					</form>
+					<div class="input-group-append">
+					  <span class="input-group-text">></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="social">
+				<i id="face" class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-google-plus" aria-hidden="true"></i>
+				<i class="fa fa-linkedin" aria-hidden="true"></i>
+				<i class="fa fa-flickr" aria-hidden="true"></i>
+			</div>
+		</div>
+
+
+	</footer>
+	<div class="foot">
+		<div class="copyright">
+			<p>
+				Copyright © Fooseshoes 2013.<br>
+				Designed by EnzoLiVolti. 
+			</p>
+		</div>
+
+		<div class="home">
+			<p>
+				Home / Support / Terms and Conditions / Faqs / Contact us
+			</p>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slider').slick({
+				arrows: false,
+				slidesToShow: 1,
+  				slidesToScroll: 1,
+ 				autoplay: true,
+  				autoplaySpeed: 2000,
+			});
+
+			$('#twitter').slick({
+				arrows: false,
+				slidesToShow: 1,
+  				slidesToScroll: 1,
+ 				autoplay: true,
+				autoplaySpeed: 2000,
+				fade: true  
+			});
+		});
+	</script>
+
+	<script>
+		function make_json(form){
+			var json={
+				"email":form.mail.value
+			};
+			var html=JSON.stringify(json,0,4);
+			console.log(html);
+			return false;
+		}
+	</script>
+
+</body>
+</html>

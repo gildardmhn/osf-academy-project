@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myFont;
+    src: url('aller_lt.tff') format('truetype');
+}
+*{
+	font-family: myFont;
+}
+
+header{
+	margin: 0;
+}
+
+.links:link {
+	text-decoration: none;
+}
+
+.main-header {
+	display: inline-block;
+	margin: 0px;
+	background-color: black;
+	width: 100%;
+}
+.header-content {
+	width: 90%;
+	height: 66px;
+	margin: auto;
+}
+
+.left-part {
+	margin: 10px;
+	float: left;	
+}
+
+.left-part a {
+	color: #54e5d3;
+}
+
+.right-part a {
+	color: #b4b4b4;
+	margin: 10px;
+	border-right: 1px;
+	border-left: 1px;
+	border-style: solid #b4b4b4;
+}
+
+.right-part {
+	float: right;
+	margin: 20px;	
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    border-left: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+.droit {
+	float: left;
+}
+
